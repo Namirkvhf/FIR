@@ -19,7 +19,7 @@ A continuación, se describen las tres distribuciones que se representan:
   - Distribución de plazas por convocatoria por ciudades deseadas (sin discriminar especialidades)
   - Distribución de plazas por convocatoria, por ciudad y por especialidad (un gráfico por convocatoria/ciudad)
 
-Las siguientes imágenes muestran un ejemplo de los tres tipos de distribuciones en la convocatoria de 2019. El resto se pueden encontrar en la carpeta "Resultados" o en la carpeta "Resultados pastel" para una paleta de colores con contraste más claro. Por defecto la paleta de colores es la de colores pastel, para cambiarla, hay que modificar la palabra "pastel" por "bright" en todo el código (solo aparece tres veces).
+Las siguientes imágenes muestran un ejemplo de los tres tipos de distribuciones en la convocatoria de 2019. El resto se pueden encontrar en la carpeta "Resultados" o en la carpeta "Resultados pastel" para una paleta de colores con contraste más claro. Por defecto la paleta de colores es la de colores vivos, para cambiarla, hay que modificar la palabra "bright" por "pastel" en todo el código (solo aparece tres veces).
 
 Cada barra en la representación gráfica corresponde a una plaza escogida en ese número para esa Ciudad/Especialidad ese año y cuando no hay barra quiere decir que esa plaza no escogió las ciudades o especialidades escogidas. 
 
