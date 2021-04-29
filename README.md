@@ -19,9 +19,9 @@ A continuación, se describen las tres distribuciones que se representan:
   - Distribución de plazas por convocatoria, por ciudad y por especialidad (un gráfico por convocatoria/ciudad)
 
 Las siguientes imágenes muestran un ejemplo de los tres tipos de distribuciones en la convocatoria de 2019. El resto se pueden encontrar en la carpeta Resultados.
-!(https://github.com/Namirkvhf/FIR/blob/main/Resultados/Convocatoria%202019%20por%20especialidades.jpeg)
-!(https://github.com/Namirkvhf/FIR/blob/main/Resultados/Plazas%20en%20ciudades%20deseadas%202019.jpeg)
-!(https://github.com/Namirkvhf/FIR/blob/main/Resultados/Plazas%20en%20MADRID%202019.jpeg)
+![Imagen 1](https://github.com/Namirkvhf/FIR/blob/main/Resultados/Convocatoria%202019%20por%20especialidades.jpeg)
+![Imagen 1](https://github.com/Namirkvhf/FIR/blob/main/Resultados/Plazas%20en%20ciudades%20deseadas%202019.jpeg)
+![Imagen 1](https://github.com/Namirkvhf/FIR/blob/main/Resultados/Plazas%20en%20MADRID%202019.jpeg)
 
 En la carpeta Resultados pastel se tiene otro contraste de colores como los siguientes:
 
