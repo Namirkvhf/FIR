@@ -27,7 +27,7 @@ def preprocesado (df,especialidad):
     return fir,df
 
 def plazasPorEspecialidad(fir, convocatorias):    
-    # Pintamos las plazas totales por convocatoria en función de la especialidad elegida
+    # Pintamos las plazas totales por convocatoria en función de la especialidad elegida y guardamos las gráfica como jpeg
     contador = 0
     palette = sns.color_palette("bright", n_colors=len(especialidad))
     for x in fir.groups:
@@ -37,10 +37,13 @@ def plazasPorEspecialidad(fir, convocatorias):
         ax.set_xlabel("Numero de plaza obtenida")
         ax.set_yticks([0,1])
         ax.set_yticklabels(["No seleccionada", "Seleccionada"])
+        fig = ax.get_figure()
+        nombre = 'Convocatoria ' + str(convocatorias[contador]) + ' por especialidades.jpeg'
+        fig.savefig(nombre)
         contador = contador + 1
         
 def plazasPorCiudadesDeseadas (fir, ciudades_deseadas, convocatorias):
-    # Pintamos las plazas seleccionadas en esas ciudades en cada convocatoria
+    # Pintamos las plazas seleccionadas en esas ciudades en cada convocatoria y guardamos las gráfica como jpeg
     contador = 0
     palette = sns.color_palette("bright", n_colors=len(ciudades_deseadas))
     for x in fir.groups:
@@ -50,10 +53,13 @@ def plazasPorCiudadesDeseadas (fir, ciudades_deseadas, convocatorias):
         ax.set_xlabel("Numero de plaza obtenida")
         ax.set_yticks([0,1])
         ax.set_yticklabels(["No seleccionada", "Seleccionada"])
+        fig = ax.get_figure()
+        nombre = 'Plazas en ciudades deseadas ' + str(convocatorias[contador]) + '.jpeg'
+        fig.savefig(nombre)
         contador = contador + 1
         
 def especialidadesPorCiudadesDeseadas (df,ciudades_deseadas, convocatorias, especialidad):
-    # Pintamos por cada ciudad elegida y cada convocatoria, la distribución de plazas en función de las especialidad.
+    # Pintamos por cada ciudad elegida y cada convocatoria, la distribución de plazas en función de las especialidad y guardamos las gráfica como jpeg
     contador_ciudad = 0
     palette = sns.color_palette("bright", n_colors=len(especialidad))
     for x in ciudades_deseadas:
@@ -74,7 +80,10 @@ def especialidadesPorCiudadesDeseadas (df,ciudades_deseadas, convocatorias, espe
             ax.set_xticklabels(fir.get_group(ii)['Numero'][::10], rotation=45)
             ax.set_xlabel("Numero de plaza obtenida")
             ax.set_yticks([0,1])
-            ax.set_yticklabels(["No seleccionada", "Seleccionada"])  
+            ax.set_yticklabels(["No seleccionada", "Seleccionada"]) 
+            fig = ax.get_figure()
+            nombre = 'Plazas en ' + str(ciudades_deseadas[contador_ciudad])+ ' '+ str(convocatorias[contador_convocatorias]) + '.jpeg'
+            fig.savefig(nombre)
             contador_convocatorias = contador_convocatorias + 1
         contador_ciudad = contador_ciudad + 1
     
