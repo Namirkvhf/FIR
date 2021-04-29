@@ -31,7 +31,6 @@ Cada barra en la representación gráfica corresponde a una plaza escogida en es
 En la carpeta [Resultados pastel](https://github.com/Namirkvhf/FIR/blob/main/Resultados%20pastel) se tiene otro contraste de colores como los siguientes:
 
 
-
-
-
-
+![Imagen x1](https://github.com/Namirkvhf/FIR/blob/main/Resultados%20/Convocatoria%202019%20por%20especialidades.jpeg)
+![Imagen x1](https://github.com/Namirkvhf/FIR/blob/main/Resultados%20/Plazas%20en%20ciudades%20deseadas%202019.jpeg)
+![Imagen x1](https://github.com/Namirkvhf/FIR/blob/main/Resultados%20/Plazas%20en%20MADRID%202019.jpeg)
