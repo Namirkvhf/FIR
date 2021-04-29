@@ -10,7 +10,7 @@ ciudades_deseadas = ['MADRID', 'VALENCIA', 'BARCELONA', 'ZARAGOZA']
 especialidad = ['FH', 'MICRO','INMUNO', 'AC', 'BQCLIN', 'RAD']
 ```
 
-En caso de querer representar las distribuciones con otras ciudades o restringiendo las especialidades, habrñia que modificar estas variables para añadir/eliminar especialidades o ciudades y ejecutar de nuevo el código, que está preparado para ello.
+En caso de querer representar las distribuciones con otras ciudades o restringiendo las especialidades, habría que modificar estas variables para añadir/eliminar especialidades o ciudades y ejecutar de nuevo el código, que está preparado para ello.
 
 Las especialidades son: Farmacia Hospitalaria (FH), Microbiología y Parasitología (MICRO), Inmunología (INMUNO), Análisis Clínicos (AC), Bioquímica Clínica (BQCLIN) y Radiofarmacia (RAD).
 
