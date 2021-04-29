@@ -19,7 +19,7 @@ A continuación, se describen las tres distribuciones que se representan:
   - Distribución de plazas por convocatoria, por ciudad y por especialidad (un gráfico por convocatoria/ciudad)
 
 Las siguientes imágenes muestran un ejemplo de los tres tipos de distribuciones. El resto se pueden encontrar en la carpeta /resultados:
-![Image of Yaktocat](https://github.com/Namirkvhf/FIR/blob/main/Resultados/Convocatoria_2017_por_especialidades.jpeg)
+![Image of Yaktocat](https://github.com/Namirkvhf/FIR/blob/main/Resultados/Convocatoria%202016%20por%20especialidades.jpeg)
 
 
 
